@@ -1,5 +1,5 @@
 // Typewriter effect
-const texts = ["Hello! I'm Aathikesh","An Aspiring Network Engineer"];
+const texts = ["Hello! I'm Aathikesh Prasanna","An Aspiring Network Engineer"];
 let count = 0, index = 0, currentText = '', letter = '';
 (function type() {
   if (count === texts.length) count = 0;
@@ -32,4 +32,5 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll
 
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
+
 });
